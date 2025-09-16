@@ -11,7 +11,7 @@ const Footer = () => {
               <span className="text-2xl font-bold">Jimmy Fleet</span>
             </div>
             <p className="text-white/80 mb-4">
-              Cyprus's leading delivery service partner. Join our team of professional riders and start earning today with Wolt partnership.
+              Cyprus's leading delivery service partner. Join our team of professional riders and start earning today with delivery partnership best fleet inside Cyprus.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors">
