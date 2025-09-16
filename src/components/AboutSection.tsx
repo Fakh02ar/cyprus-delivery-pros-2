@@ -9,11 +9,11 @@ const AboutSection = () => {
           
           <div className="text-lg md:text-xl text-muted-foreground leading-relaxed space-y-6">
             <p>
-              <strong className="text-accent">Jimmy Fleet</strong> is a delivery service that helps restaurants bring food to customers quickly and safely. We work as a <strong className="text-primary">fleet partner with Wolt</strong>, which means we manage a team of trained riders who deliver orders from restaurants to people's homes.
+              <strong className="text-accent">Jimmy Fleet</strong> is a delivery service that helps restaurants bring food to customers quickly and safely. We work as a <strong className="text-primary">fleet partner with delivery companies inside us</strong>, which means we manage a team of trained riders who deliver orders from restaurants to people's homes.
             </p>
             
             <p>
-              Since <strong className="text-primary">2023</strong>, we have built a strong network of <strong className="text-success">more than 100 riders</strong> across Cyprus. Our goal is to make sure every delivery is on time, every customer is happy, and every restaurant can focus on cooking while we take care of the transport.
+               we have built a strong network of <strong className="text-success">more than 100 riders</strong> across Cyprus. Our goal is to make sure every delivery is on time, every customer is happy, and every restaurant can focus on cooking while we take care of the transport.
             </p>
             
             <p>
@@ -58,7 +58,7 @@ const AboutSection = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-accent">Wolt Partnership</h3>
+              <h3 className="text-xl font-semibold mb-2 text-accent">Delivery Partnership</h3>
               <p className="text-muted-foreground">Official fleet partner with proven track record</p>
             </div>
           </div>

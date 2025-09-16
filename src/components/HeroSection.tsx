@@ -23,7 +23,7 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 opacity-90 fade-in-up stagger-1">
-            Cyprus's leading delivery service. Join 100+ riders earning daily with Wolt partnership
+            Cyprus's leading delivery service. Join 100+ riders earning daily with delivery partnership best fleet inside us
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center fade-in-up stagger-2">

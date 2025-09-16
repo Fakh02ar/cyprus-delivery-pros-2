@@ -21,17 +21,12 @@ const CTASection = () => {
               Join Jimmy Fleet Now
             </Button>
             
-            <div className="flex items-center space-x-2 text-lg">
-              <svg className="w-6 h-6 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-              </svg>
-              <span>No setup fees</span>
-            </div>
+            
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-              <div className="text-3xl font-bold text-primary-glow mb-2">€15-25</div>
+              <div className="text-3xl font-bold text-primary-glow mb-2">€7-15</div>
               <div className="text-lg opacity-80">Per Hour Potential</div>
             </div>
             
