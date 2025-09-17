@@ -3,7 +3,7 @@ import heroImage from "@/assets/hero-delivery.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="hero-gradient relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="hero-gradient relative min-h-screen flex flex-col justify-center items-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img 
@@ -15,21 +15,21 @@ const HeroSection = () => {
       </div>
       
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 text-center text-white">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 fade-in-up">
+      <div className="relative z-10 container mx-auto px-4 text-center text-white flex flex-col justify-center min-h-screen mt-30">
+        <div className="max-w-4xl mx-auto mt-24">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 md:mb-6 fade-in-up">
             Start Earning with
             <span className="block text-primary-glow">Jimmy Fleet</span>
           </h1>
           
-          <p className="text-xl md:text-2xl mb-8 opacity-90 fade-in-up stagger-1">
+          <p className="text-lg sm:text-xl md:text-2xl mb-6 md:mb-8 opacity-90 fade-in-up stagger-1">
             Cyprus's leading delivery service. Join 100+ riders earning daily with delivery partnership best fleet inside Cyprus
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center fade-in-up stagger-2">
             <Button 
               size="lg" 
-              className="btn-hero text-xl px-12 py-6"
+              className="btn-hero text-lg sm:text-xl px-8 sm:px-12 py-4 sm:py-6"
               onClick={() => document.getElementById('join-us')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Join Jimmy Fleet Today
@@ -38,23 +38,22 @@ const HeroSection = () => {
             <Button 
               variant="outline" 
               size="lg" 
-              className="btn-outline text-xl px-8 py-6 border-white  hover:bg-white hover:text-accent"
+              className="btn-outline text-lg sm:text-xl px-6 sm:px-8 py-4 sm:py-6 border-white hover:bg-white hover:text-accent"
               onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Learn More
             </Button>
           </div>
           
-          <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 fade-in-up stagger-3">
+          <div className="mt-8 md:mt-12 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 fade-in-up stagger-3">
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary-glow">100+</div>
-              <div className="text-lg opacity-80">Active Riders</div>
+              <div className="text-3xl sm:text-4xl font-bold text-primary-glow">100+</div>
+              <div className="text-base sm:text-lg opacity-80">Active Riders</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary-glow">24/7</div>
-              <div className="text-lg opacity-80">Support</div>
+              <div className="text-3xl sm:text-4xl font-bold text-primary-glow">24/7</div>
+              <div className="text-base sm:text-lg opacity-80">Support</div>
             </div>
-           
           </div>
         </div>
       </div>
