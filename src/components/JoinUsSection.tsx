@@ -61,17 +61,20 @@ const JoinUsSection = () => {
           </div>
           
           <div className="text-center">
-            <Button className="btn-success text-xl px-12 py-6 mb-4">
-              Apply Now - Start Today
-               <a
-             href="https://api.whatsapp.com/send?phone=35794575089"
-             target="_blank"
-             rel="noopener noreferrer"
-             className="hover:opacity-80 transition-opacity p-2 text-white rounded-full pt-3"
+              <Button
+             asChild
+  className="btn-success text-xl px-12 py-6 mb-4"         
              >
-          <i className="fa-brands fa-whatsapp text-xl"></i>
-           </a>
-            </Button>
+          <a
+            href="https://api.whatsapp.com/send?phone=35794575089"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+               Apply Now - Start Today
+            <i className="fa-brands fa-whatsapp text-lg ml-2"></i>
+            </a>
+           </Button>
+         
             <p className="text-muted-foreground">
               Ready to start earning? Join our growing team of professional riders
             </p>

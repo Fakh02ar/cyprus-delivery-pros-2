@@ -18,18 +18,20 @@ const Header = () => {
             <a href="#testimonials" className="text-muted-foreground hover:text-accent transition-colors">Reviews</a>
           </nav>
           
-          <Button className="btn-success">
-            Start Today
-               <a
-             href="https://api.whatsapp.com/send?phone=35794575089"
-             target="_blank"
-             rel="noopener noreferrer"
-             className="hover:opacity-80 transition-opacity p-2 text-white rounded-full pt-3"
-             >
-          <i className="fa-brands fa-whatsapp text-xl"></i>
-           </a>
-            
-          </Button>
+          <Button
+  asChild
+  className="btn-success flex items-center justify-center gap-3 text-white text- px-6 py-4"
+>
+  <a
+    href="https://api.whatsapp.com/send?phone=35794575089"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Start Today
+    <i className="fa-brands fa-whatsapp text-lg ml-2"></i>
+  </a>
+</Button>
+
         </div>
       </div>
     </header>

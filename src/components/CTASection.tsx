@@ -17,17 +17,21 @@ const CTASection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
-            <Button className="btn-hero text-xl px-12 py-6">
-              Join Jimmy Fleet Now
-               <a
-             href="https://api.whatsapp.com/send?phone=35794575089"
-             target="_blank"
-             rel="noopener noreferrer"
-             className="hover:opacity-80 transition-opacity p-2 text-white rounded-full pt-3"
-             >
-          <i className="fa-brands fa-whatsapp text-xl"></i>
-           </a>
-            </Button>
+            <Button
+  size="lg"
+  asChild
+  className="btn-hero text-lg sm:text-xl px-8 sm:px-12 py-4 sm:py-6 flex items-center gap-3"
+>
+  <a
+    href="https://api.whatsapp.com/send?phone=35794575089"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+      Join Jimmy Fleet Now
+    <i className="fa-brands fa-whatsapp text-2xl"></i>
+  
+  </a>
+</Button>
             
             
           </div>
