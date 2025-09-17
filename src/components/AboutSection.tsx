@@ -1,8 +1,12 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
+// Import images (if using assets folder)
+import cyprus1 from "/cyprus-1.jpeg";
+import cyprus2 from "/cyprus-2.jpeg";
+
 const AboutSection = () => {
-  const images = ["/cyprus-1.jpeg", "/cyprus-2.jpeg"]; // apni images add karein
+  const images = [cyprus1, cyprus2]; // updated imports
   const [current, setCurrent] = useState(0);
 
   const prevSlide = () => {
@@ -55,7 +59,7 @@ const AboutSection = () => {
 
             {/* Right Image Slider Section */}
             <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
-              <div className="relative w-full lg:max-w-md xl:h-[370px] lg:h-[400] flex items-center justify-center">
+              <div className="relative w-full lg:max-w-md xl:h-[370px] lg:h-[400px] flex items-center justify-center">
                 {/* Current Image */}
                 <img
                   src={images[current]}
@@ -66,7 +70,7 @@ const AboutSection = () => {
                 {/* Left Arrow */}
                 <button
                   onClick={prevSlide}
-                  className="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full hover:bg-black/70"
+                  className="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full hover:bg-black/70 z-10"
                 >
                   <ChevronLeft size={24} />
                 </button>
@@ -74,13 +78,13 @@ const AboutSection = () => {
                 {/* Right Arrow */}
                 <button
                   onClick={nextSlide}
-                  className="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full hover:bg-black/70"
+                  className="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full hover:bg-black/70 z-10"
                 >
                   <ChevronRight size={24} />
                 </button>
 
                 {/* Dots */}
-                <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex space-x-2">
+                <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex space-x-2 z-10">
                   {images.map((_, index) => (
                     <button
                       key={index}

@@ -20,6 +20,15 @@ const Header = () => {
           
           <Button className="btn-success">
             Start Today
+               <a
+             href="https://api.whatsapp.com/send?phone=35794575089"
+             target="_blank"
+             rel="noopener noreferrer"
+             className="hover:opacity-80 transition-opacity p-2 text-white rounded-full pt-3"
+             >
+          <i className="fa-brands fa-whatsapp text-xl"></i>
+           </a>
+            
           </Button>
         </div>
       </div>
